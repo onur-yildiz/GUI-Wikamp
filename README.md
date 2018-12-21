@@ -30,7 +30,7 @@ __npm install -g @angular/cli__
 
 
 ### Step 2: Install dependencies
-To install the dependencies, open a terminal/console window and enter the following command:
+To install the dependencies, open a terminal/console window in the project folder and enter the following command:
 
 __npm i__
 
@@ -38,5 +38,5 @@ __npm i__
 
 ### Step 3: Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` from terminal/console window in the project folder for a dev server. Navigate to `http://localhost:4200/` in your browser. The app will automatically reload if you change any of the source files.
 
