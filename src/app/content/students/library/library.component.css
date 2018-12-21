@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container div {
+  padding: 1em;
+  width: 72%;
+}
+
+.container div * {
+  width: calc(100% - 1em);
+}
+
+.container div button {
+  width: 50%;
+  float: left;
+  padding: .5em 1em;
+}
+
+label {
+  font-weight: bolder;
+}
+
+input {
+  padding: .5em 0em;
+  padding-left: 1em;
+  margin: .5em 0;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 1.1em;
+  text-align: center;
+  padding-left: 1em;
+  border-bottom: 1px solid grey;
+}
+
+input:focus {
+  background-color: beige;
+}
+
+textarea {
+  padding: .5em 0em;
+  padding-left: 1em;
+  margin: .5em 0;
+}
+
+textarea:focus {
+  background-color: beige;
+}
+
+.confirm {
+  background: lightgreen;
+  border: 1px solid green;
+}
+
+.cancel {
+  background: rgb(252, 66, 66);
+  border: 1px solid rgb(160, 4, 4);
+}

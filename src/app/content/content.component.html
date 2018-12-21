@@ -1,0 +1,52 @@
+<div>
+  <div class="sidebar-container">
+    <ul>
+      <li class="dropdown">
+        <a class="cat-title" (click)="employees = !employees">Employees Area</a>
+        <div class="expandable" [ngClass]="{'expanded':employees}">
+          <a routerLink="uninews">University News</a>
+          <a routerLink="ifenews">IFE News</a>
+          <a routerLink="uniinfo">University Info</a>
+          <a routerLink="reqcourse">Request Course</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a class="cat-title" (click)="students = !students">Students Area</a>
+        <div class="expandable" [ngClass]="{'expanded':students}">
+            <a routerLink="uninews">University News</a>
+            <a routerLink="ifenews">IFE News</a>
+            <a routerLink="library">Library</a>
+            <a routerLink="libcourses">Library Courses</a>
+        </div>
+      </li>
+      <li routerLink="courses"><a class="cat-title">Courses</a></li>
+      <li class="dropdown">
+        <a class="cat-title" (click)="info = !info">Info</a>
+        <div class="expandable" [ngClass]="{'expanded':info}">
+          <a routerLink="tuled-disabled">Education in TUL</a>
+          <a routerLink="departments">Departments</a>
+          <a routerLink="rules-disabled">Rules of Law</a>
+          <a routerLink="dataprot">Data Protection</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a class="cat-title" (click)="help = !help">Help</a>
+        <div class="expandable" [ngClass]="{'expanded':help}">
+          <a routerLink="stafftrain">Staff Training</a>
+          <a routerLink="studenttrain">Tutorial for Students</a>
+          <a routerLink="teachertut">Tutorial for Teachers</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- <app-courses></app-courses>
+<app-employees></app-employees>
+<app-help></app-help>
+<app-info></app-info>
+<app-students></app-students> -->

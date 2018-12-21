@@ -1,0 +1,18 @@
+li {
+  list-style-type: none;
+}
+
+.container div {
+  margin: 1em;
+}
+
+.container > div {
+  padding: .5em 1em;
+  border: 1px solid silver;
+  box-shadow: 1px 1px 2px grey; 
+}
+
+.container p {
+  font-weight: bolder;
+  border-bottom: 1px solid grey; 
+} 

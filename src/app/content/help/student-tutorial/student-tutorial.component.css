@@ -1,0 +1,19 @@
+li {
+  list-style-type: none;
+}
+
+.container div:not(.buttons) {
+  border: 1px solid wheat;
+  box-shadow: 1px 1px 1px gray; 
+  padding: .5em 1em;
+  margin: 1em 0;
+}
+
+.buttons {
+  margin-top: 2em;
+}
+
+.buttons button {
+  margin: 0 auto;
+  padding: .75em 3em;
+}

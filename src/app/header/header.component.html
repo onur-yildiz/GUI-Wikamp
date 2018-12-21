@@ -1,0 +1,47 @@
+<div class="img-bg"><img src="../../assets/banner.png" alt=""></div>
+<div id="navbar">
+  <div>
+    <ul>
+      <li class="headerlink" routerLink="app"><a>Home</a></li>
+      <li class="headerlink"><a>E-Mail</a></li>
+      <li class="headerlink"><a>WIKAMP Platforms</a></li>
+      <li class="headerlink"><a>VirTUL</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li id="ntf" class="dropdown typ-b headerlink" (click)="ntf = !ntf">
+        <a>Notifications</a>
+        <div class="expandable" [ngClass]="{'expanded':ntf}">
+          <a>Notif A</a>
+          <a>Notif B</a>
+        </div>
+      </li>
+      <li id="msg" class="dropdown typ-b headerlink" (click)="msg = !msg">
+        <a>Messages</a>
+        <div class="expandable" [ngClass]="{'expanded':msg}">
+          <a>Person A</a>
+          <a>Person B</a>
+          <a>Person C</a>
+        </div>
+      </li>
+      <li id="lan" class="dropdown typ-b headerlink" (click)="lan = !lan">
+        <a>Language</a>
+        <div class="expandable" [ngClass]="{'expanded':lan}">
+          <a>English</a>
+          <a>Polski</a>
+        </div>
+      </li>
+      <li id="profile" (click)="prof = !prof" class="dropdown headerlink">
+        <a>Onur Yildiz</a>
+        <div class="expandable" [ngClass]="{'expanded':prof}">
+          <a routerLink="dashboard">Data</a>
+          <a routerLink="profile">Profile</a>
+          <a routerLink="grades">Grades</a>
+          <a routerLink="preferences">Preferences</a>
+          <a routerLink="logout">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

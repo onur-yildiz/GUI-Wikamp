@@ -1,0 +1,52 @@
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.container div {
+  margin: 1em;
+}
+
+.user {
+  float: left;
+}
+
+.user p {
+  font-weight: bolder;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.user-infos {
+  float: left;
+}
+
+.info {
+  border: 1px solid silver;
+  padding: 1em 2em;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.courses {
+  border: 1px solid silver;
+  padding: 1em 2em;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.courses p {
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+}
+
+.courses li {
+  padding: .5em 1em;
+  cursor: pointer;
+}
+
+.courses li:hover {
+  color: crimson;
+  font-weight: bolder;
+}

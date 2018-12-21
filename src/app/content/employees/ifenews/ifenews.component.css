@@ -1,0 +1,30 @@
+.container > div {
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid rgb(104, 3, 23);
+  box-shadow: 1px 1px 1px rgb(70, 2, 16);
+  transition: .5s;
+}
+
+.container > div:hover {
+  transition: .5s;
+  box-shadow: 2px 3px 10px rgb(70, 2, 16);
+  background-color: wheat;
+}
+
+.title-container {
+  padding-bottom: .5em;
+  border-bottom: 1px groove crimson;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.date {
+  margin-left: 5em;
+}
+
+p {
+  margin-left: .5em;
+}
