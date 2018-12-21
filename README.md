@@ -10,7 +10,7 @@ Angular requires Node.js version 8.x or 10.x.
 
 To check your version, run node -v in a terminal/console window.
 
-To get Node.js, go to __nodejs.org__.
+To get Node.js, go to __[nodejs.org](https://nodejs.org/en/)__ (Current version is recommended).
 
 __npm package manager__
 Angular, the Angular CLI, and Angular apps depend on features and functionality provided by libraries that are available as npm packages. To download and install npm packages, you must have an npm package manager.
