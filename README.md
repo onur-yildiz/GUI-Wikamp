@@ -19,7 +19,7 @@ This Quick Start uses the npm client command line interface, which is installed 
 
 To check that you have the npm client installed, run npm -v in a terminal/console window.
 
-__Step 1: Install the Angular CLI__
+# Step 1: Install the Angular CLI
 You use the Angular CLI to create projects, generate application and library code, and perform a variety of ongoing development tasks such as testing, bundling, and deployment.
 
 Install the Angular CLI globally.
@@ -29,10 +29,12 @@ To install the CLI using npm, open a terminal/console window and enter the follo
 __npm install -g @angular/cli__
 
 
-__Step 2: Install dependencies__
+# Step 2: Install dependencies
 To install the dependencies, open a terminal/console window and enter the following command:
 
 __npm i__
+
+
 
 ## Development server
 
